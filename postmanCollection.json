@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "83cf12bd-4066-49bf-8c1b-e800e07bdd50",
+		"name": "urlShortener",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21506834",
+		"_collection_link": "https://interstellar-capsule-471012.postman.co/workspace/urlshortener~546d6884-d941-4847-802d-b037da56bd59/collection/21506834-83cf12bd-4066-49bf-8c1b-e800e07bdd50?action=share&source=collection_link&creator=21506834"
+	},
+	"item": [
+		{
+			"name": "customShorten",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/shorten",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"shorten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "redirect",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "analytics",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
