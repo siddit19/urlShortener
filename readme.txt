@@ -3,7 +3,7 @@ Step by step guide to run the urlShortener project
 ->Extract the folder
 ->After opening up the folder in code editor, first step is to install the node modules. To do so, in the root location, run this command in the console : npm install
 -> After this , set up the dotenv file. There are three enviorement variables namely PORT, MONGO_URI and BASE_URL. As of now I have kept my values so that the project can be run immediately but some other database can also be connected by just changing the connection string in MONGO_URI variable.
--> Finally to run the project, write this command in the console in root location : npm run dotenv
+-> Finally to run the project, write this command in the console in root location : npm run dev
 ->The project will run successfully.
 
 Step by step guide to test the APIs
